@@ -1,7 +1,6 @@
 import express from "express";
 import { databaseLoader } from "./database.js";
-import router from "./routes/user.js";
-import bookRoutes from './routes/book.js'
+
 import empRoutes from './routes/employee.js'
 import contactRoutes from './routes/contact.js'
 const app = express();
